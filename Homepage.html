@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<style>
+.row
+{
+	padding: 10px 10px 10px 10px;
+}
+.btn
+{
+	background-color:lightgray;
+	height:50px;
+	font-weight:bold;
+	font-family:"Papyrus";
+	font-size:30px;
+		
+}
+.divmain
+{
+	background-color:#3db17d
+}
+.sidebar
+{
+margin:0;
+padding:0;
+width:400px;
+position:absolute;
+height:100%;
+overflow:auto;
+background-color:lightblue;
+}
+</style>
+</head>
+	<body>
+<div class="jumbotron jumbotron-fluid bg-dark">
+</div>
+<div class="sidebar"><hr>
+	<ul class="navbar-nav">
+	<li class="navbar-brand"><h2>Console Messages:</h2></li>
+	<li class="nav-item"><p>Designed to show error messages</p></li>
+	</ul>
+	</div>
+<div class="container-fluid divmain pt-3">
+	<h3 class="display-2 text-right text-center">Hello Calculator</h3>
+	<hr>
+	<div class="row">
+		<div class="col-sm-0 col-md-4 "></div>
+		<div class="col-sm-12 col-md-4"><input type="text" class="form-control form-control-lg px-3 py-3"></div>
+		<div class="col-sm-0 col-md-4"></div>
+		</div>
+		<div class="row">
+		<div class="col-sm-0 col-md-4"></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">1</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">2</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn  btn-block">3</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">+</button></div>
+		<div class="col-sm-0 col-md-4"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-0 col-md-4"></div>
+		<div class="col-sm-3 col-md-1 "><button class="btn btn-block">4</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">5</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">6</button></div>
+		<div class="col-sm-3 col-md-1"><button class="btn btn-block">-</button></div>
+		<div class="col-sm-0 col-md-4"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-1 "><button class="btn btn-block">7</button></div>
+		<div class="col-sm-1 "><button class="btn btn-block">8</button></div>
+		<div class="col-sm-1"><button class="btn btn-block">9</button></div>
+		<div class="col-sm-1 "><button class="btn btn-block">X</button></div>
+		<div class="col-sm-4"></div>
+	</div>
+	<div class="row pb-5">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-1 "><button class="btn btn-block">=</button></div>
+		<div class="col-sm-1 "><button class="btn btn-block">0</button></div>
+		<div class="col-sm-1"><button class="btn btn-block">/</button></div>
+		<div class="col-sm-1 "><button class="btn btn-block">Clr</button></div>
+		<div class="col-sm-4"></div>
+	</div>
+	</div>
+	<div class="jumbotron jumbotron-fluid bg-info mt-3">
+	</div>	
+	</body>
+</html>
