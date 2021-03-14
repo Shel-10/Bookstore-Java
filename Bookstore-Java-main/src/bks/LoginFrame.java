@@ -161,8 +161,6 @@ class LoginFrame extends JFrame
 		add(btn_login);
 		
 		setBounds(500,200, 400, 500);
-		
-		
 		setVisible(true);
 		
 	}
